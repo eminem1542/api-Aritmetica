@@ -23,8 +23,8 @@ app.get('/', (req, res) => {
         {
             "Title": "Hola mundo"
         }
-    );
-})
+    )
+});
 
 app.post('/sumar', (req, res) => { // http://localhost:3000/sumar
   const { num1, num2 } = req.body;// se declaran los datos de entrada
